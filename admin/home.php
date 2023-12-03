@@ -119,7 +119,7 @@
                         <div class="card card-light-blue bg-warning">
                             <div class="card-body text-black">
                                 <?php
-                                $r=mysqli_query($conn,"select count(*)as total from rooms where status='1'");
+                                $r=mysqli_query($conn,"select count(*)as total from checked where status='1'");
                                 if (mysqli_num_rows($r)>0){
                                     $row=mysqli_fetch_assoc($r);
                                 }
