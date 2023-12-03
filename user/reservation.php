@@ -17,7 +17,7 @@
 							<tbody>
 								<?php 
 								$i = 1;
-								$select_res = mysqli_query($conn,"Select * from reservation where status='reserved'");
+								$select_res = mysqli_query($conn,"Select * from reservation where status='reserved' and name_reservor='".$_SESSION['login_name']."'");
 								if (mysqli_num_rows($select_res) > 0){
 								    while ($row=mysqli_fetch_assoc($select_res)){
 								        ?>
