@@ -77,12 +77,12 @@ function send_mail($recipient,$subject,$message)
     $mail->Port       = 587;
     $mail->Host       = "smtp.gmail.com";
     //$mail->Host       = "smtp.mail.yahoo.com";
-    $mail->Username   = "joselinas.hotel@gmail.com";
-    $mail->Password   = "muxziveygsutpefj";
+    $mail->Username   = "ymandayahotel@gmail.com";
+    $mail->Password   = "itlwfahhuxnzzcqt";
 
     $mail->IsHTML(true);
     $mail->AddAddress($recipient, "esteemed customer");
-    $mail->SetFrom("joselinas.hotel@gmail.com", "Joselina Hotel");
+    $mail->SetFrom("ymandayahotel@gmail.com", "ASC yMandaya Hotel");
     //$mail->AddReplyTo("reply-to-email", "reply-to-name");
     //$mail->AddCC("cc-recipient-email", "cc-recipient-name");
     $mail->Subject = $subject;
