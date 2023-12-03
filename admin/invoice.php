@@ -76,9 +76,8 @@ $pdf->SetFont('helvetica', '', 12);
 $pdf->AddPage();
 
 $txt = <<<EOD
-Apayao Province 
-Cagayan Philippines 
-infotechfamcaps@gmail.com
+Cordillera Administrative Region
+ymandayahotel@gmail.com
 (0936) 448 3632
 EOD;
 
