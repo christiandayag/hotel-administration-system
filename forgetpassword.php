@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Admin | Hotel Joselina</title>
+  <title>Admin |ASC yMandaya Hotel</title>
 
 
     <meta content="" name="descriptison">
