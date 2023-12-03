@@ -37,12 +37,12 @@
 		$mail->SMTPSecure = "tls";
 		$mail->Port       = 587;
 		$mail->Host       = "smtp.gmail.com";
-		$mail->Username   = "joselinas.hotel@gmail.com";
-		$mail->Password   = "lmuvkhriodfqkkrs";
+		$mail->Username   = "ymandayahotel@gmail.com";
+		$mail->Password   = "itlwfahhuxnzzcqt";
 
 		$mail->IsHTML(true);
 		$mail->AddAddress($email, "Reset Password");
-		$mail->SetFrom("joselinas.hotel@gmail.com", "Joselina Hotel");
+		$mail->SetFrom("ymandayahotel@gmail.com", "ASC yMandaya Hotel");
 		$mail->Subject = 'Reset Password';
 		$content = 'Your password has been successfully reset. Here is your new password: '.'<b>'. $pword.'</b>';
 
